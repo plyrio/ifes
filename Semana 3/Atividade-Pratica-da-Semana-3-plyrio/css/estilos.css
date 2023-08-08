@@ -96,7 +96,7 @@ b) margem superior e inferior de 0 e margens laterais automáticas
 c) separação entre células de 2vw (border-collapse: separate; e border-spacing: 2vw;)
 VALOR: 0.8 pontos: 0.2 do seletor e 0.2 de cada letra
 */
-table {
+.tabela {
     width: 80%;
     margin: 0 auto;
     border-collapse: separate;
@@ -280,7 +280,7 @@ e) borda superior sólida de 1px com a cor da variável --corEscura
 VALOR: 1.2 pontos: 0.2 do seletor e 0.2 de cada letra
 */
 .footer {
-    padding: 30px calc(10% + 2vw) 30px calc(10% + 2vw);
+    padding: 30px calc(10% + 2vw);
     color: var(--corEscura);
     text-align: center;
     background-color: rgb(255,255,255);
