@@ -39,6 +39,8 @@ a {
 .conteiner {
     width: 80%;
     margin: 0 auto;
+    min-height: 100%;
+    position: relative;
     /* 1a. largura exata de 80% da largura da área de visualização do navegador */
 
     /* 1b. margem superior e inferior nulas e margens laterais automáticas para centralizar a página */
@@ -55,6 +57,11 @@ a {
 */
 .areaesquerda {
     background-color: white;
+    width: 18%;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    padding: 15px;
     /* 2a. largura exata de 18% da largura da área de visualização do navegador */
 
     /* 2b. poscionamento fixo */
@@ -93,6 +100,10 @@ a {
 */
 .areadireita {
     background-color: #eee;
+    width: 62%;
+    position: relative;
+    left: 18%;
+    padding: 15px;
     /* 3a. largura fixa de 62% da largura da área de visualização do navegador */
 
     /* 3b. poscionamento relativo */
@@ -147,6 +158,8 @@ a {
 4. O seletor a seguir define a configuração da imagem que é mostrada dentro da seção #sobre_mim. É a imagem em que o desenvolvedor aparece sentado com um notebook aberto à sua frente. Essa imagem deve ser posicionada através de uma flutuação à direita e deve ter largura de 65% do tamanho do elemento pai. Complete o seletor a seguir com as propriedades necessárias para alcançar essa configuração.
 */
 .sobre .hero .imagem {
+    float: right;
+    width: 65%;
     /* 4a. flutuação à direita */
 
     /* 4b. largura fixa de 65% do elemento pai */
