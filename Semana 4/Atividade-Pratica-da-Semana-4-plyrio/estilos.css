@@ -39,7 +39,7 @@ a {
 .conteiner {
     width: 80vw;
     margin: 0 auto;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     /* 1a. largura exata de 80% da largura da área de visualização do navegador */
 
@@ -58,9 +58,9 @@ a {
 .areaesquerda {
     background-color: white;
     width: 18vw;
-    height: 100vh;
     position: fixed;
-    top: 0px;
+    top: 0;
+    height: 100vh;
     padding: 15px;
     /* 2a. largura exata de 18% da largura da área de visualização do navegador */
 
