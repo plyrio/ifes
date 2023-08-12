@@ -59,7 +59,7 @@ a {
     background-color: white;
     width: 18vw;
     position: fixed;
-    top: 0;
+    top: 0vh;
     height: 100vh;
     padding: 15px;
     /* 2a. largura exata de 18% da largura da área de visualização do navegador */
