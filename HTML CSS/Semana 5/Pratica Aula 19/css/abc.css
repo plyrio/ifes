@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid   2px black;
+    
+}
+main    {
+    width: 95vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat (12, 1fr);
+}
+header {
+    background-color: greenyellow;
+}
+
+nav {
+    background-color: azure;
+}
+
+article {
+    background-color: aquamarine;
+}
+
+footer  {
+    background-color: blueviolet;
+}

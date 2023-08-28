@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo Multimedia</title>
+</head>
+<body>
+    <h1>Conteudo Multimedia</h1>
+    <hr>
+    <!--Tag controls para aparecer os controles.
+    Adicionado largura e altura para poder aumentar o tamanho do player.
+    Autoplay para iniciar automaticamento
+    Muted para o IE que não iniciar videos automaticamento com audios.-->
+    <video controls width="400" height="300" muted poster="arquivos/popeye_for_president.jpg">    <!--poster para adicionar capa no video-->    
+        <!--Acima foi adicionado as 3 extensoes diferentes do video, pois o navegador vai carregar o primeiro suportado.-->
+        <source src="arquivos/PopeyeforPresident.mp4" type="video/mp4">]
+        <source src="arquivos/PopeyeforPresident.ogv" type="video/ogv">
+        <source src="arquivos/PopeyeforPresident.webm" type="video/webm">
+        <!--Adicionar legenda aos videos-->
+        <track kind="captions" srclang="en-us" src="arquivos/PopeyeforPresident.en-us.vtt" label="Closed captions">
+        <track kind="subtitles" srclang="pt-br" src="arquivos/PopeyeforPresident.pt-br.vtt" label="Legendas PT-BR" default> <!--Usar default para vim a legenda ativada por padrão-->
+        Seu Navegador não suporta vídeos HTML5
+
+    </video>
+</body>
+</html>
