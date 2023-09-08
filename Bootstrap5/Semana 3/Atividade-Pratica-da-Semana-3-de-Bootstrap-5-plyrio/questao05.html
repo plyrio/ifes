@@ -15,13 +15,56 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 05</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário de login da questão anterior, substituindo os títulos (labels) por placeholders e adicionando complementos com ícones sugestivos nos campos "Usuário (E-mail)", "Senha" e "Perfil".</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário de login da
+            questão anterior, substituindo os títulos (labels) por placeholders e adicionando complementos com ícones
+            sugestivos nos campos "Usuário (E-mail)", "Senha" e "Perfil".</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <form class="col-4 mx-auto">
+            <div>
+                <h3 class="display-5">Loguin</h3>
+                <hr>
+                <div class="input-group mb-3">
+                    <label for="usuario" class="input-group-text">
+                        <i class="bi bi-person"></i>
+                    </label>
+                    <input type="text" id="usuario" class="form-control" placeholder="Usuário (E-mail)">
+                </div>
+                <div class="input-group mb-3">
+                    <label for="senha" class="input-group-text">
+                        <i class="bi bi-shield-lock" for="senha"></i>
+                    </label>
+                    <input type="password" id="senha" class="form-control" placeholder="Senha">
+                </div>
+                <div class="input-group mb-3">
+                    <label for="perfil" class="input-group-text">
+                        <i class="bi bi-person-gear"></i>
+                    </label>
+                    <select class="form-select" id="perfil" placeholder=" ">
+                        <option disabled selected value="">Selecione um perfil...</option>
+                        <option value="1">Administrador</option>
+                        <option value="2">Gerente</option>
+                        <option value="3">Usuário</option>
+                    </select>
+                </div>
+                <div class="form-check form-switch mb-3">
+                    <input type="checkbox" class="form-check-input" role="switch" id="lembrar">
+                    <label for="lembrar" class="form-check-label">Lembrar de mim</label>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+                <div class="mb-3">
+                    <a href="#" class="text-decoration-none">Esqueci minha senha</a>
+                    <div class="mb-3">
+                        <a href="#" class="text-decoration-none">Quero me cadastrar</a>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 

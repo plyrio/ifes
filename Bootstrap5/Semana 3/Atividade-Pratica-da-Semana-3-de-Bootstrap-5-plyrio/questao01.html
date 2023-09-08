@@ -14,13 +14,32 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 01</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, crie um formulário intitulado "Login" com os campos "Usuário (E-mail)" e "Senha" e com um botão intitulado "Entrar". Os campos deve estar dispostos verticalmente e os títulos dos campos devem ficar acima deles. Ainda, o formulário deve ocupar 4 colunas e deve estar centralizado horizontalmente na página.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, crie um formulário intitulado "Login"
+            com os campos "Usuário (E-mail)" e "Senha" e com um botão intitulado "Entrar". Os campos deve estar
+            dispostos verticalmente e os títulos dos campos devem ficar acima deles. Ainda, o formulário deve ocupar 4
+            colunas e deve estar centralizado horizontalmente na página.</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <form class="col-4 mx-auto">
+            <div>
+                <h3 class="display-5">Loguin</h3>
+                <hr>
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Usuário (E-mail)</label>
+                    <input type="text" id="usuario" class="form-control" placeholder="seuemail@email.com">
+                </div>
+                <div class="mb-3">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" id="senha" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 

@@ -15,13 +15,68 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 06</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, faça o mesmo formulário da questão 3, porém, com leiaute horizontal.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, faça o mesmo formulário da questão 3,
+            porém, com leiaute horizontal.</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <form class="col-4 mx-auto">
+            <h3 class="display-5 text-center">Loguin</h3>
+            <hr>
+            <div class="row mb-3">
+                <label for="usuario" class="col-4 col-form-label text-end">Usuário (E-mail)</label>
+                <div class="col-8">
+                    <input type="text" id="usuario" class="form-control" placeholder="seuemail@email.com">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="senha" class="col-4 col-form-label text-end">Senha</label>
+                <div class="col-8">
+                    <input type="password" id="senha" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="perfil" class="col-4 col-form-label text-end">Perfil</label>
+                <div class="col-8">
+                    <select class="form-select" id="perfil">
+                        <option disabled selected value="">Selecione um perfil...</option>
+                        <option value="1">Administrador</option>
+                        <option value="2">Gerente</option>
+                        <option value="3">Usuário</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8">
+                <div class="form-check form-switch mb-3">
+                    <input type="checkbox" class="form-check-input" role="switch" id="lembrar">
+                    <label for="lembrar" class="form-check-label">Lembrar de mim</label>
+                </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-4"></div>
+                <div class="col-8">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-4"></div>
+                <div class="col-8">
+                    <a href="#" class="text-decoration-none">Esqueci minha senha</a>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-4"></div>
+                <div class="col-8">
+                    <a href="#" class="text-decoration-none">Quero me cadastrar</a>
+                </div>
+            </div>
+    </div>
+    </form>
     </div>
 </body>
 

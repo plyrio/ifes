@@ -20,7 +20,42 @@
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <form class="col-4 mx-auto">
+            <div>
+                <h3 class="display-5">Loguin</h3>
+                <hr>
+                <div class="form-floating mb-3">
+                    <input type="text" id="usuario" class="form-control" placeholder=" ">
+                    <label for="usuario" class="form-label">Usuário (E-mail)</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" id="senha" class="form-control" placeholder=" ">
+                    <label for="senha" class="form-label">Senha</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="perfil" placeholder=" ">
+                        <option disabled selected value="">Selecione um perfil...</option>
+                        <option value="1">Administrador</option>
+                        <option value="2">Gerente</option>
+                        <option value="3">Usuário</option>
+                    </select>
+                    <label for="perfil" class="form-label">Perfil</label>
+                </div>
+                <div class="form-check form-switch mb-3">
+                    <input type="checkbox" class="form-check-input" role="switch" id="lembrar">
+                    <label for="lembrar" class="form-check-label">Lembrar de mim</label>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+                <div class="mb-3">
+                    <a href="#" class="text-decoration-none">Esqueci minha senha</a>
+                    <div class="mb-3">
+                        <a href="#" class="text-decoration-none">Quero me cadastrar</a>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 
