@@ -16,14 +16,25 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 01</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie um agrupamento com 4 botões de cores temáticas diferentes, sendo que o último deles deve ter um menu flutuante (dropdown) com 3 itens.
+            Usando exclusivamente classes do Bootstrap 5, crie um agrupamento com 4 botões de cores temáticas
+            diferentes, sendo que o último deles deve ter um menu flutuante (dropdown) com 3 itens.
         </p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <div class="btn-group">
+            <button class="btn btn-primary">Botão 1</button>
+            <button class="btn btn-secondary">Botão 2</button>
+            <button class="btn btn-warning">Botão 3</button>
+            <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">Botão 4</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Menu Flutuante 1</a></li>
+                <li><a class="dropdown-item" href="#">Menu Flutuante 2</a></li>
+                <li><a class="dropdown-item" href="#">Menu Flutuante 3</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 
