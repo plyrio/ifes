@@ -15,14 +15,31 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 04</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie um card responsivo que tenha 8 colunas de largura por padrão e as seguintes larguras nos breakpoints SM, MD, LG e XL, respectivamente: 7, 5, 4 e 3. O card deverá mostrar dados de seu jogador favorito da seleção brasileira de futebol na copa de 2022. O card deve iniciar com uma foto do jogador alinhada ao topo, seguida por um cabeçalho com o texto "Jogador Favorito da Seleção", um título com o nome do jogador, um subtítulo com o clube em que ele joga, um texto com dados do jogador (cidade natal, data de nascimento e altura), e um rodapé indicando quantos jogos ele tem pela seleção brasileira. O card deve ser mostrado em um contêiner responsivo, centralizado horizontalmente.
+            Usando exclusivamente classes do Bootstrap 5, crie um card responsivo que tenha 8 colunas de largura por
+            padrão e as seguintes larguras nos breakpoints SM, MD, LG e XL, respectivamente: 7, 5, 4 e 3. O card deverá
+            mostrar dados de seu jogador favorito da seleção brasileira de futebol na copa de 2022. O card deve iniciar
+            com uma foto do jogador alinhada ao topo, seguida por um cabeçalho com o texto "Jogador Favorito da
+            Seleção", um título com o nome do jogador, um subtítulo com o clube em que ele joga, um texto com dados do
+            jogador (cidade natal, data de nascimento e altura), e um rodapé indicando quantos jogos ele tem pela
+            seleção brasileira. O card deve ser mostrado em um contêiner responsivo, centralizado horizontalmente.
         </p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <div class="card mb-3 mx-auto col-sm-7 col-md-5 col-lg-4 col-xl-3" style="max-width: 18rem;">
+            <img src="img/casemiro.webp" class="card-img-top" alt="casimiro">
+            <div class="card-header">Jogador Favorito da Seleção</div>
+            <div class="card-body">
+                <h5 class="card-title">Casemiro</h5>
+                <h6 class="card-subtitle mb-2 text-secondary">Manchester United</h6>
+                <p class="card-text mb-1">Cidade Natal: São José dos Campos
+                    Data de Nascimento: 23/02/1992
+                    Altura: 1,85 m</p>
+            </div>
+            <div class="card-footer">73 jogos com a seleção</div>
+        </div>
     </div>
 </body>
 
