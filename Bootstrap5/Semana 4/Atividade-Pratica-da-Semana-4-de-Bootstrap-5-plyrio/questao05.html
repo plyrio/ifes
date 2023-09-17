@@ -16,14 +16,33 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 05</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie uma lista agrupada contendo 3 botões com os seguintes títulos: "Caixa de Entrada", "Itens Arquivados" e "Lixo e Spam". Cada botão deve ter um badge posicionado à direita e com um afastamento de 2 unidades para a borda direita. O primeiro badge deve ser azul e conter o número 18. O segundo badge deve ser verde e conter o número 241. O terceiro badge deve ser vermelho e conter o número 11. Por fim, apresente uma mensagem de alerta dispensável, em vermelho claro, com o texto "Sua caixa de e-mails possui somente 110MB livres.".
+            Usando exclusivamente classes do Bootstrap 5, crie uma lista agrupada contendo 3 botões com os seguintes
+            títulos: "Caixa de Entrada", "Itens Arquivados" e "Lixo e Spam". Cada botão deve ter um badge posicionado à
+            direita e com um afastamento de 2 unidades para a borda direita. O primeiro badge deve ser azul e conter o
+            número 18. O segundo badge deve ser verde e conter o número 241. O terceiro badge deve ser vermelho e conter
+            o número 11. Por fim, apresente uma mensagem de alerta dispensável, em vermelho claro, com o texto "Sua
+            caixa de e-mails possui somente 110MB livres.".
         </p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <ul class="list-group mb-2">
+            <button class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Caixa de Entrada
+                <span class="badge text-bg-primary rounded-pill me-2">18</span>
+            </button>
+            <button class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Itens Arquivados
+                <span class="badge text-bg-success rounded-pill me-2">241</span>
+            </button>
+            <button class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Lixo e Spam
+                <span class="badge text-bg-danger rounded-pill me-2">11</span>
+            </button>
+        </ul>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Sua caixa de e-mails possui somente 110MB livres.
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
     </div>
 </body>
 
