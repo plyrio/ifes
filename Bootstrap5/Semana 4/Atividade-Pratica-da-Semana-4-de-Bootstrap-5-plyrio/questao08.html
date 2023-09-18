@@ -16,18 +16,52 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 08</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie um painel deslizante oculto usando o componente <i>OffCanvas</i>, que tenha como título "Seleções da Copa do Mundo 2022" e que tenha um botão para fechar o painel. O corpo do painel deve conter os nomes de 8 países cujas seleções estão na Copa, precedidos pela bandeira do país. Ordene os países conforme a classificação que você acha que eles obterão na copa. Em seguida, adicione uma barra de navegação com um botão alinhado à direita, intitulado "Mostrar", que, quando clicado, deve exibir o painel deslizante.
+            Usando exclusivamente classes do Bootstrap 5, crie um painel deslizante oculto usando o componente
+            <i>OffCanvas</i>, que tenha como título "Seleções da Copa do Mundo 2022" e que tenha um botão para fechar o
+            painel. O corpo do painel deve conter os nomes de 8 países cujas seleções estão na Copa, precedidos pela
+            bandeira do país. Ordene os países conforme a classificação que você acha que eles obterão na copa. Em
+            seguida, adicione uma barra de navegação com um botão alinhado à direita, intitulado "Mostrar", que, quando
+            clicado, deve exibir o painel deslizante.
         </p>
         <p class="lead">
-            Dica: use um parágrafo da classe <i>lead</i> para cada país e, na imagem da bandeira, use largura de 54px e a classe "img-thumbnail".
+            Dica: use um parágrafo da classe <i>lead</i> para cada país e, na imagem da bandeira, use largura de 54px e
+            a classe "img-thumbnail".
         </p>
         <p class="lead">
-            <a href="https://brasilescola.uol.com.br/educacao-fisica/paises-participantes-da-copa-do-mundo-de-2022.htm" target="_blank">Clique aqui</a> para obter as imagens das bandeiras dos países que estão na Copa 2022.
+            <a href="https://brasilescola.uol.com.br/educacao-fisica/paises-participantes-da-copa-do-mundo-de-2022.htm"
+                target="_blank">Clique aqui</a> para obter as imagens das bandeiras dos países que estão na Copa 2022.
         </p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
+    <div class="container-fluid">
+        <nav class="navbar text-bg-dark">
+            <div class="container">
+                <button class="btn btn-primary ms-auto" data-bs-toggle="offcanvas"
+                    data-bs-target="#painel">Mostrar</button>
+        </nav>
+        <div class="offcanvas offcanvas-start show" id="painel" tabindex="-1">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Seleções da Copa do Mundo 2022</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p class="lead"> <img src="img/argentina.webp" class="img-thumbnail" style="width: 54px;"> Argentina</p>
+                <p class="lead"> <img src="img/franca.webp" class="img-thumbnail" style="width: 54px;"> França</p>
+                <p class="lead"> <img src="img/holanda.webp" class="img-thumbnail" style="width: 54px;"> Holanda</p>
+                <p class="lead"> <img src="img/equador.webp" class="img-thumbnail" style="width: 54px;"> Equador</p>
+                <p class="lead"> <img src="img/bandeira-catar.webp" class="img-thumbnail" style="width: 54px;"> Catar
+                </p>
+                <p class="lead"> <img src="img/bandeira-inglaterra.webp" class="img-thumbnail" style="width: 54px;">
+                    Inglaterra</p>
+                <p class="lead"> <img src="img/japao.webp" class="img-thumbnail" style="width: 54px;"> Japão</p>
+                <p class="lead"> <img src="img/alemanha.webp" class="img-thumbnail" style="width: 54px;"> Alemanha</p>
+
+            </div>
+        </div>
+    </div>
+    </div>
 
 </body>
 

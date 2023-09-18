@@ -16,7 +16,10 @@
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 09</h1>
         <p class="lead">
-            Usando exclusivamente classes do Bootstrap 5, crie um indicador de caminho (<i>breadcrumbs</i>) contendo os itens "Principal", "Área Restrita" e "Dados Pessoais", nesta ordem, tendo como separador o caractere ">". Em seguida, adicione uma linha horizontal e 2 componentes de carregamento (<i>spinner</i>) de dimensões 100px por 100px, sendo um componente de cada tipo e de cor temática diferente.
+            Usando exclusivamente classes do Bootstrap 5, crie um indicador de caminho (<i>breadcrumbs</i>) contendo os
+            itens "Principal", "Área Restrita" e "Dados Pessoais", nesta ordem, tendo como separador o caractere ">". Em
+            seguida, adicione uma linha horizontal e 2 componentes de carregamento (<i>spinner</i>) de dimensões 100px
+            por 100px, sendo um componente de cada tipo e de cor temática diferente.
         </p>
         <p class="lead">
             Dica: use as propriedades CSS <i>width</i> e <i>height</i> para definir o tamanho dos spinners.
@@ -26,7 +29,14 @@
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
-
+        <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+            <li class="breadcrumb-item"><a href="#">Principal</a></li>
+            <li class="breadcrumb-item"><a href="#">Área Restrita</a></li>
+            <li class="breadcrumb-item"><a href="#">Dados Pessoais</a></li>
+        </nav>
+        <hr>
+        <div class="spinner-border text-success" style="width: 100px; height: 100px;"></div>
+        <div class="spinner-grow text-info" style="width: 100px; height: 100px;"></div>
     </div>
 </body>
 
