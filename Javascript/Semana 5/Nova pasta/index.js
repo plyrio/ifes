@@ -2,10 +2,10 @@ const prompt = require('prompt-sync')();
 var array_games = [];
 
 do {
-  console.log("Sistema de Cadastro de Games");
-  console.log("1 - Inserir Game");
-  console.log("2 - Excluir Cliente");
-  console.log("3 - Listar Clientes");
+  console.log("Sistema de Cadastro de Jogos");
+  console.log("1 - Inserir Jogo");
+  console.log("2 - Excluir Jogo");
+  console.log("3 - Listar Jogos");
   console.log("0 - Sair");
 
   var opcao = prompt("Digite sua opção: ");
