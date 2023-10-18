@@ -55,7 +55,11 @@ function inserir_jogo(jogo) {
 
 function excluir_jogo(codigo) {
   // Implementar corpo da função
-  array_games.splice(codigo);
+  for (var j; j <= array_games.length; j++){
+    if (j == codigo){
+      array_games.splice(j);
+    }
+  }  
 }
 
 function listar_jogos() {
