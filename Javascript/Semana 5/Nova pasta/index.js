@@ -52,19 +52,18 @@ function inserir_jogo(jogo) {
 
 function excluir_jogo(codigo) {
   // Implementar corpo da função
-  /*var narray_games = array_games.splice(codigo, 1);
-  return narray_games;*/
-  for (let i = 0; i < array_games.length; i++) {
-  if (array_games[i].codigo == codigo) {
-   array_games.splice(i, 1);
-   break;
+  for (var i = 0; i < array_games.length; i++){
+    var aux = array_games[i];
+    if (codigo == aux.codigo){
+      array_games.splice(i, 1);
+      break
+    }
   }
 }
-}
-
 function listar_jogos() {
   // Implementar corpo da função
-  for (let jogo of array_games) {
-    console.log(jogo);
+  for (var i = 0; i < array_games.length; i++) {
+    var g = array_games[i];
+    console.log(g.codigo +": " + g.nome +" - " + g.genero +" - " + g.plataforma + " - " + g.lancamento);
   }
 }
