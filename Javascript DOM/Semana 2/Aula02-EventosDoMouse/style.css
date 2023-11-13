@@ -1,0 +1,15 @@
+div#area1 {
+  background: #f04028;
+  width: 150px;  
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+div#area2 {
+  background: #65a6fb;
+  width: 150px;  
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
