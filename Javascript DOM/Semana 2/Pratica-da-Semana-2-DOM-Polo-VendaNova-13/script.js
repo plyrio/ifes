@@ -2,13 +2,19 @@ var cachorros = [{ "nome": "Thor", "imagem": "dog1" }, { "nome": "Zeca", "imagem
 
 var gatos = [{ "nome": "Dunga", "imagem": "cat1" }, { "nome": "Mika", "imagem": "cat2" }, { "nome": "Conan", "imagem": "cat3" }, { "nome": "Messi", "imagem": "cat4" }];
 
-// Selecionar elemento 'select_animais' ( 1 ponto)
+/ Selecionar elemento 'select_animais' ( 1 ponto)
+var animais = document.getElementById('select_animals');
 // Selecionar elemento 'container' ( 1 ponto)
+var container = document.getElementById('container');
 // Selecionar elemento 'nome' ( 1 ponto)
+var nome = document.getElementById('nome');
 
 // Adicionar Listener 'input' ao elemento 'select_animais' (1 ponto)
+animais.addEventListener('click', listarAnimais);
 // Adicionar Listener 'mouseover' ao elemento 'container' (1 ponto)
+container.addEventListener('mouseover', mostrarNome);
 // Adicionar Listener 'mouseout' ao elemento 'container' (1 ponto)
+container.addEventListener('mousedown', limparNome);
 
 function listarAnimais() { // Implementação da função (10 pontos)
   limparDivContainer();
