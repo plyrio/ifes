@@ -14,36 +14,58 @@
 
 <body class="p-3 m-0 border-0">
 
-  <h1 class="text-center">Sistema de Cadastro de Clientes</h1>
+  <h1 class="text-center">Sistema de Cadastro de Games</h1>
   <hr>
 
   <form name="form1" action="#" method="POST" class="row g-3 needs-validation" novalidate>
     <div class="col-md-6">
-      <label for="nome" class="form-label">Nome</label>
+      <label for="nome" class="form-label">Nome do Jogo</label>
       <input type="text" class="form-control" id="nome" required>
-      <div class="invalid-feedback">Informe o nome corretamente.</div>
+      <div id="feedbackNome" class="invalid-feedback">Informe o nome corretamente.</div>
     </div>
     <div class="col-md-6">
-      <label for="email" class="form-label">E-mail</label>
-      <input type="email" class="form-control" id="email" required>
-      <div class="invalid-feedback">Informe o e-mail corretamente.</div>
+      <label for="desenvolvedora" class="form-label">Desenvolvedora</label>
+      <input type="text" class="form-control" id="desenvolvedora" required>
+      <div class="invalid-feedback">Informe uma Desenvolvedora.</div>
     </div>
     <div class="col-md-6">
-      <label for="celular" class="form-label">Celular</label>
-      <input type="text" class="form-control" id="celular" placeholder="(99)99999-9999" pattern="\(\d{2}\)\d{5}-\d{4}"
-        required>
-      <div id="feedbackCelular" class="invalid-feedback">Informe o celular corretamente.</div>
-    </div>
-    <div class="col-md-6">
-      <label for="estado" class="form-label">Estado</label>
-      <select id="estado" class="form-select" required>
-        <option value="" disabled selected>Selecione o estado...</option>
-        <option value="ES">ES</option>
-        <option value="MG">MG</option>
-        <option value="RJ">RJ</option>
-        <option value="SP">SP</option>
+      <label for="plataforma" class="form-label">Plataforma</label>
+      <select id="plataforma" class="form-select" required>
+        <option value="" disabled selected>Selecione a plataforma...</option>
+        <option value="PC">PC</option>
+        <option value="Console">Console</option>
+        <option value="Mobile">Mobile</option>
+        <option value="Multiplataforma">Multiplataforma</option>
       </select>
-      <div class="invalid-feedback">Informe o estado corretamente.</div>
+      <div class="invalid-feedback">Informe uma plataforma.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="modo" class="form-label">Modo de Jogo</label>
+      <select id="modo" class="form-select" required>
+        <option value="" disabled selected>Selecione o modo...</option>
+        <option value="umjogador">Um Jogador</option>
+        <option value="multijogador">Multi Jogadores</option>
+      </select>
+      <div class="invalid-feedback">Informe um modo de jogo.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="data" class="form-label">Data de Lançamento</label>
+      <input type="date" class="form-control" id="data" 
+        required>
+      <div  class="invalid-feedback">Informe a data de lançamento.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="genero" class="form-label">Gênero</label>
+      <select id="genero" class="form-select" required>
+        <option value="" disabled selected>Selecione o gênero...</option>
+        <option value="FPS">FPS</option>
+        <option value="RPG">RPG</option>
+        <option value="MMORPG">MMORPG</option>
+        <option value="MOBA">MOBA</option>
+        <option value="SPORTS">SPORTS</option>
+        <option value="OUTRO">OUTRO</option>
+      </select>
+      <div class="invalid-feedback">Informe um gênero.</div>
     </div>
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
       <input type="submit" class="btn btn-primary me-md-2" value="Inserir" id="btnInserir">
@@ -57,10 +79,12 @@
       <tr>
         <th scope="col">#</th>
         <th scope="col">Nome</th>
-        <th scope="col">E-mail</th>
-        <th scope="col">Celular</th>
-        <th scope="col">Estado</th>
-        <th scope="col">Ação</th>
+        <th scope="col">Desenvolvedora</th>
+        <th scope="col">Plataforma</th>
+        <th scope="col">Modo</th>
+        <th scope="col">Data de Lançamento</th>
+        <th scope="col">Gênero</th>
+        
       </tr>
     </thead>
     <tbody>
