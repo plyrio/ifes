@@ -1,0 +1,72 @@
+[
+  {
+    "NomeCompleto": "Ana Silva",
+    "Endereco": "Rua das Flores, 123, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 25,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "João Santos",
+    "Endereco": "Avenida Das Oliveiras, 456, Cidade Bela Vista",
+    "Nacionalidade": "Brasileira",
+    "Idade": 30,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Maria Oliveira",
+    "Endereco": "Rua das Acacicas, 789, Cidade Rio de Janeiro",
+    "Nacionalidade": "Brasileira",
+    "Idade": 35,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "Pedro Souza",
+    "Endereco": "Rua das Palmeira, 246, Cidade São Paulo",
+    "Nacionalidade": "Portuguesa",
+    "Idade": 40,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Luiza Pereira",
+    "Endereco": "Avenida das Camelas, 135, Vitoria",
+    "Nacionalidade": "Brasileira",
+    "Idade": 45,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "Carlos Almeida",
+    "Endereco": "Rua das Palmeiras, 890, Cidade Florianópolis",
+    "Nacionalidade": "Brasileira",
+    "Idade": 50,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Fernanda Costa",
+    "Endereco": "Rua das Palmeiras, 890, Cidade Florianópolis",
+    "Nacionalidade": "Brasileira",
+    "Idade": 55,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "Ricardo Rodrigues",
+    "Endereco": "Rua das Palmeiras, 890, Cidade Florianópolis",
+    "Nacionalidade": "Brasileira",
+    "Idade": 60,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Julia Oliveira",
+    "Endereco": "Rua das Palmeiras, 890, Cidade Florianópolis",
+    "Nacionalidade": "Brasileira",
+    "Idade": 65,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "André Silva",
+    "Endereco": "Rua das Palmeiras, 890, Cidade Florianópolis",
+    "Nacionalidade": "Brasileira",
+    "Idade": 70,
+    "Sexo": "Masculino"
+  }
+]

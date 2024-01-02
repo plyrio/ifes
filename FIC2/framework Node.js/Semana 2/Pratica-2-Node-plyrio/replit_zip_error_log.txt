@@ -1,0 +1,1 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/nodejs-20:v20-20231219-faac932","time":"2024-01-02T19:10:01Z"}
