@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.684"
+  },
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.11"
+  }
+}

@@ -1,0 +1,33 @@
+* {
+    padding: 0 15px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(26, 37, 61);
+    color: aliceblue;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+a {
+    padding: 20px;
+}
+
+ol li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: rgb(85, 87, 119);
+    box-sizing: content-box;
+}
+
+p {
+    padding-top: 30px;
+}
+h3  {
+    padding-top: 15px;
+}
+

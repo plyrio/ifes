@@ -1,0 +1,1 @@
+return res.render('email', { mensagem: "E-mail enviado com sucesso!" });

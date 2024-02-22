@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sistema de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Área de envio de e-mail!</h1>
+    </header>
+    <form action="/enviodeemail" method="post">
+        <input type="email" name="email" id="email" placeholder="email@contato.br">
+        <button type="submit">Enviar E-mail</button>
+    </form>
+    <% if (mensagem) { %>
+        <div class="mensagem-sucesso">
+            <%= mensagem %>
+        </div>
+        <% } %>
+            <footer>
+                <p>Desenvolvido por <strong>&copy; Plyrio</strong></p>
+            </footer>
+</body>
+
+</html>
